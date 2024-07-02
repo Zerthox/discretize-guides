@@ -24,7 +24,7 @@ classification:
   - 4
   - 3
   - 5
-date: "2024-06-14T17:25:21.814Z "
+date: "2024-07-02T00:32:27.197Z "
 ---
 The <Specialization name="Renegade"/> is one of the professions with the most support and utility. It provides permanent <Boon name="Alacrity"/>, half of the necessary <Boon name="Might"/> with <Skill name="Heroic Command"/>, and if that is not enough already, the <Specialization name="Renegade"/> has also excellent CC capabilities with <Skill name="Surge of the mists"/> and <Skill name="Darkrazorsdaring"/>.
 
@@ -80,11 +80,11 @@ Dragon pieces can be freely replaced with Berserker for a slight DPS loss.
 <Divider text="Staff  VS Greatsword"/>
 <Grid>
 <GridItem>
-<Weapons weapon1MainType="Greatsword" weapon1MainAffix="Berserker" weapon1MainSigil1Id={24615} weapon1MainSigil2Id={24639}/> 
+<Weapons weapon1MainType="Greatsword" weapon1MainAffix="Berserker" weapon1MainSigil1Id="24615" weapon1MainSigil2Id="24639"/> 
 </GridItem>
 
 <GridItem>
-<Weapons weapon1MainType="Staff" weapon1MainAffix="Berserker" weapon1MainSigil1Id={24615} weapon1MainSigil2Id={84505}/> 
+<Weapons weapon1MainType="Staff" weapon1MainAffix="Berserker" weapon1MainSigil1Id={24615} weapon1MainSigil2Id="84505"/> 
 </GridItem>
 </Grid>
 The build above is regarded as the 'safer' build and should generally be taken in less experienced groups. 
@@ -107,6 +107,7 @@ On certain fights such as Artsariiv, consider running <Item id="24639"/> to inst
 | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <Trait name="Incensed Response" size="big" disableText/>    | Will increase your personal <Boon name="Might"/> generation and is taken as an alternative to <Trait name="Spirit Boon"/> if you are not maintaining 25 stacks.                                                  |
 | <Trait name="Vindication" size="big" disableText/>    | This trait is a personal DPS increase. It can be used on shorter fights where you can precast most of the required <Boon name="Alacrity"/> at the _Mistlock Singularity_.     
+| <Trait name="All for One" size="big" disableText/>    | **NEWLY ADDED** \ 
 
 </GridItem>
 </Grid>
