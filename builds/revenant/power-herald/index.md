@@ -1,6 +1,10 @@
 ---
+title: Power Quick Herald
 hidden: false
 archive: false
+rating: Meta
+role: Power Damage
+profession: Revenant
 specialization: Herald
 boons:
   - name: "Quickness "
@@ -28,16 +32,12 @@ classification:
   - 4
   - 1
   - 3
-date: "2023-10-22T11:19:48.969Z "
-title: Power Quick Herald
-rating: Meta
-role: Power Damage
-profession: Revenant
+date: "2024-07-03T11:14:13.130Z "
 ---
  
 The Power Quickness <Specialization name="Herald"/> provides permanent <Boon name="Quickness"/>, <Boon name="Fury"/>, <Boon name="Protection"/>, <Boon name="Swiftness"/>, <Boon name="Regeneration"/>, ~13 <Boon name="Might"/>, additional incoming boon duration, and good CC with <Skill name="Surge of the mists"/>.
 
-It can also provide <Boon name="Stability"/> or Projectile Block for a small to a moderate dps loss.
+This particular build is far more utility focussed compared to the [<Specialization name="Renegade" disableText/>    Power Alac Renegade Build](/builds/revenant/power-renegade/). In general other stances are recommended over <Skill name="Legendary Assassin Stance" />. Below we will cover both examples of stances and when they are used.
  
 <Divider text="Equipment"/> 
 <CharacterWithAr>
@@ -52,37 +52,31 @@ Dragon pieces can be freely replaced with Berserker for a slight DPS loss.
 
 <Divider text="Build"/>
 <Grid>
-<GridItem sm="8">
+<GridItem sm="4">
 <Traits traits1="Devastation" traits1Selected="Unsuspecting Strikes,Notoriety,Swift Termination" traits2="Invocation" traits2Selected="Rising Tide,Spirit Boon, Roiling Mists" traits3="Herald" traits3Selected="Core Value, Shared Empowerment, Elevated Compassion"/>
-
+</GridItem>
+<GridItem sm="2">
 ### Defiance Bar Damage
 
 **Hard Crowd Control:**
 
 - <Skill name="Surge of the Mists"/> - Up to nine hits of 150 <Control name="Knockback"/>.
-- <Skill name="Chaotic Release"/> - 232 <Control name="Launch"/>
-- <Skill name="Energy Expulsion"/> - 150 <Control name="Knockback"/>.
-- <Skill name="Jade Winds"/> - 300 <Control name="Stun"/>.
+- <Skill name="Darkrazors Daring"/> - 600 <Control name="Daze"/> + Superior Sigil of Paralyzation <Item id="24639" disableText/> = 780 <Control name="Daze"/>.
+- <Skill name="Jade Winds"/> - 300 <Control name="Stun"/> + Superior Sigil of Paralyzation <Item id="24639" disableText/> = 390 <Control name="Daze"/>.
 - <Skill name="Call to Anguish"/> - 150 <Control name="Pull"/>.
 
 **Soft Crowd Control:**
-
 - <Skill name="Arcing Mists"/> - <Condition name="Chilled"/> for 33 per second.
 - <Skill name="Phantom's Onslaught"/> - <Condition name="Chilled"/> for 33 per second.
 - <Skill name="Chilling Isolation"/> - <Condition name="Chilled"/> for 33 per second.
 - <Skill name="Shackling Wave"/> - <Condition name="Immobile"/> for 50 per second.
 - <Skill name="Forced Engagement"/> - <Condition name="Taunt"/> and <Condition name="Slow"/> for 75 and 50 per second.
-- <Skill name="Gaze of Darkness"/> - <Condition name="Blinded"/> for 20 per second.
-- <Skill name="Elemental Blast"/> - <Condition name="Chilled"/> and <Condition name="Weakness"/> for 33 and 20 per second.
 - <Skill name="Banish Enchantment"/> - <Condition name="Chilled"/> for 33 per second.
-- <Skill name="Warding Rift"/> - <Condition name="Blinded"/> for 20 per second.
-- <Skill name="Inspiring Reinforcement"/> - <Condition name="Weakness"/> for 20 per second.
 - <Skill name="Mender's Rebuke"/> - <Condition name="Weakness"/> for 20 per second.
 
 </GridItem>
-<GridItem sm="4">
 ### Situational Skills
-
+</Grid>
 |                                                                |                                                                                                              |
 | -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
 | <Skill id="28075" size="big" disableText/>                     | This <Specialization name="Herald"/> skill grants you <Effect name="Superspeed"/>.                           |
