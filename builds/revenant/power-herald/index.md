@@ -32,7 +32,7 @@ classification:
   - 4
   - 1
   - 3
-date: "2024-07-03T11:14:13.130Z "
+date: "2024-07-03T18:35:14.374Z "
 ---
  
 The Power Quickness <Specialization name="Herald"/> provides permanent <Boon name="Quickness"/>, <Boon name="Fury"/>, <Boon name="Protection"/>, <Boon name="Swiftness"/>, <Boon name="Regeneration"/>, ~13 <Boon name="Might"/>, additional incoming boon duration, and good CC with <Skill name="Surge of the mists"/>.
@@ -52,10 +52,11 @@ Dragon pieces can be freely replaced with Berserker for a slight DPS loss.
 
 <Divider text="Build"/>
 <Grid>
-<GridItem sm="4">
+<GridItem>
 <Traits traits1="Devastation" traits1Selected="Unsuspecting Strikes,Notoriety,Swift Termination" traits2="Invocation" traits2Selected="Rising Tide,Spirit Boon, Roiling Mists" traits3="Herald" traits3Selected="Core Value, Shared Empowerment, Elevated Compassion"/>
 </GridItem>
-<GridItem sm="2">
+<GridItem>
+
 ### Defiance Bar Damage
 
 **Hard Crowd Control:**
@@ -75,20 +76,65 @@ Dragon pieces can be freely replaced with Berserker for a slight DPS loss.
 - <Skill name="Mender's Rebuke"/> - <Condition name="Weakness"/> for 20 per second.
 
 </GridItem>
-### Situational Skills
 </Grid>
-|                                                                |                                                                                                              |
-| -------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
-| <Skill id="28075" size="big" disableText/>                     | This <Specialization name="Herald"/> skill grants you <Effect name="Superspeed"/>.                           |
-| <Skill name="Phase Traversal" size="big" disableText/>         | Step through the Mists to your target.                                                                       |
-| <Skill name="Inspiring Reinforcement" size="big" disableText/> | Create a stone road granting <Boon name="Stability"/> to allies.                                             |
-| <Skill name="Call to Anguish" size="big" disableText/>         | Pull enemies up to 360 radius.                                                                               |
-| <Skill name="Protective Solace" size="big" disableText/>       | Protective barrier blocking enemy projectiles.                                                               |
-| <Skill name="Breakrazor's Bastion" size="big" disableText/>    | This <Specialization name="Renegade"/> skill shield your allies with -50% Incoming Condition Damage for 10s. |
-| <Skill name="Nomad's Advance" size="big" disableText/>         | This <Specialization name="Vindicator"/> skill lunge you forward up to 600 range.                            |
+
+### Situational Skills
+
+### Situational Skills
+<Grid>
+<GridItem sm="4">
+#### <Specialization name="Herald"/>  
+|                                                                      |                                                                                                                                                                                                                 |
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <Skill name="Breakrazor's Bastion" size="big" disableText/>             | Good Group Heal and gives Resolution to your group.                                                                                                                                                                  |
+| <Skill name="Darkrazor's daring" size="big" disableText/>               | Variety of uses, primarily as a good 600 AoE CC skill. Can be cast to CC a Boss, a group of adds or remove boons from enemies with <Item id="72872"/>                                                                |
+| <Skill name="Icerazor's Ire" size="big" disableText/>                   | Good DPS skill that also stacks <Condition name="Vulnerability"/> on the boss.                                                                                                                                       |
+
+</GridItem>
+<GridItem sm="4">
+#### <Skill name="Legendary Assassin Stance"/>  
+|                                                                      |                                                                                                                                                                                                                 |
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <Skill name="Phase traversal" size="big" disableText/>                  | Shadows steps you to an enemy target. In combination with <Item id="78978"/>, can be used for a variety of skips in certain fractals. Example of this is the skip to first set of adds in the Molten Bosses fractal. |
+| <Skill name="Impossible Odds" size="big" disableText/>                  | Your best DPS skill. Make sure to toggle this skill on when you do your burst.                                                                                                                                       |
+| <Skill name="Jade Winds" size="big" disableText/>                       | AoE <Control name="Stun"/> around your character. Useful for CCing 2 clones with a <Item id="24639" /> in the 2nd CC Phase of Artsariiv by standing between them.                                                     |
+
+
+</GridItem>
+<GridItem sm="4">
+#### <Skill name="Legendary Dwarf Stance"/>  
+|                                                                      |                                                                                                                                                                                                                 |
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <Skill name="Inspiring Reinforcement" size="big" disableText/>          | Casually called 'Road', is often used to provide stability to the party.                                                                                                         |
+| <Skill name="Forced Engagement" size="big" disableText/>                | 500 CC in 4 seconds through <Condition name="Taunt"/> and <Condition name="Slow"/>.                                                                                                                                  |
+| <Skill name="Vengeful Hammers" size="big" disableText/>                 | Similar to <Skill name="Impossible Odds" />, and although is less DPS, does give a small heal for every hammer hit.                                                                                                  |
+
+</GridItem>
+<GridItem sm="4">
+#### <Specialization name="Renegade"/> Citedal Order Skills
+|                                                                      |                                                                                                                                                                                                                 |
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <Skill name="Heroic Command" size="big" disableText/>                   | Cast Heroic Command, when you see your group missing might. Make sure that you have 5 Stacks of Kalla's Fervor to provide 10 <Boon name="Might"/>.                                                                                        |
+
+</GridItem>
+<GridItem sm="4">
+#### <Skill name="Legendary Demon Stance"/>  
+|                                                                      |                                                                                                                                                                                                                 |
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <Skill name="Banish Enchantment" size="big" disableText/>               | Remove 3 boons from enemy target.                                                                                                                                                                                    |
+| <Skill name="Call to Anguish" size="big" disableText/>                  | Pull enemies together in a 360 radius. Useful for pulling adds together in Molten Boss for example.                                                                                                                  |
+
+</GridItem>
+<GridItem sm="4">
+#### <Skill name="Legendary Dragon Stance"/>  
+|                                                                      |                                                                                                                                                                                                                 |
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <Skill name="Facet of Chaos" size="big" disableText/>                   | Gives the party <Effect name="Superspeed"/>.                                                                                                                                                                         |
 
 </GridItem>
 </Grid>
+
+
 
 <Divider text="Details"/>
 ### Precasting
