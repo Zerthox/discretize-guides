@@ -32,7 +32,7 @@ classification:
   - 4
   - 1
   - 3
-date: "2024-07-03T18:35:14.374Z "
+date: "2024-07-05T00:08:15.044Z "
 ---
  
 The Power Quickness <Specialization name="Herald"/> provides permanent <Boon name="Quickness"/>, <Boon name="Fury"/>, <Boon name="Protection"/>, <Boon name="Swiftness"/>, <Boon name="Regeneration"/>, ~13 <Boon name="Might"/>, additional incoming boon duration, and good CC with <Skill name="Surge of the mists"/>.
@@ -78,15 +78,14 @@ Dragon pieces can be freely replaced with Berserker for a slight DPS loss.
 </GridItem>
 </Grid>
 
-### Situational Skills
 
 ### Situational Skills
 <Grid>
 <GridItem sm="4">
-#### <Specialization name="Herald"/>  
+#### <Skill name="Legendary Dragon Stance"/>  
 |                                                                      |                                                                                                                                                                                                                 |
 |---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <Skill name="Breakrazor's Bastion" size="big" disableText/>             | Good Group Heal and gives Resolution to your group.                                                                                                                                                                  |
+|<Skill name="Facet of Light" size="big" disableText/> <Skill name="Infuse Light" size="big" disableText/>             |Important for maintaining <Boon name="Regeneration"/>. Second activation provides healing to all incoming strike damage                                                                                                                                                                 |
 | <Skill name="Darkrazor's daring" size="big" disableText/>               | Variety of uses, primarily as a good 600 AoE CC skill. Can be cast to CC a Boss, a group of adds or remove boons from enemies with <Item id="72872"/>                                                                |
 | <Skill name="Icerazor's Ire" size="big" disableText/>                   | Good DPS skill that also stacks <Condition name="Vulnerability"/> on the boss.                                                                                                                                       |
 
@@ -170,107 +169,3 @@ Start on <Skill name="Legendary Dragon Stance"/>.
 
 Ideally you would want to do your burst rotation when the enemy is under the effect of <Effect name="Exposed"/>.
 
-### Abilities
-**Facet/Consume Skills:**
-- <Skill name="facetofnature" /> - Increase the duration of boons applied to allies. This effect gives a flat 20% increase to the duration of boons applied to the target. This can go over the 100% boon duration cap, essentially giving your party a possible 120% boon duration.
-  - <Skill name="truenature" /> - (Dragon)  Increase the duration of allies' boons. The current boons get extended by 2 seconds (3 seconds with <Trait name="Core Value"/>).
-- <Skill name="facetofnature" /> - Grants allies the ability to steal life with their strikes.
-  - <Skill name="truenature" /> - (Assasin) Strip boons from nearby enemies. 
-- <Skill name="facetofnature" /> - Reduce incoming damage to allies by 10%. 
-  - <Skill name="truenature" /> - (Dwarf) Grant <Boon name="Stability"/> to nearby allies. 
-- <Skill name="facetofnature" /> - Heal nearby allies every few seconds.
-  - <Skill name="truenature" /> - (Centaur) Cleanse conditions from nearby allies. Heal for each condition removed.
-- <Skill name="facetofnature" /> - Transfer a condition from nearby allies to yourself every few seconds.
-  - <Skill name="truenature" /> - (Demon) Transfer conditions to nearby enemies. Gain <Boon name="Might"/> for each condition transferred.
-
----
-
-**Greatsword Skills:**
-
-- <Skill name="Mist Swing"/> - The auto-attack chain cleaves up to 5 targets and provides <Condition name="Vulnerability"/> on the second and third attacks in the chain. The third attack also applies <Condition name="Chilled"/>
-- <Skill name="Mist Unleashed"/> - High damage skill with low cooldown and energy cost, also applies <Condition name="Vulnerability"/>.
-- <Skill name="Phantom's Onslaught"/> - A movement skill that will rush you toward your target and apply <Condition name="Chilled"/>.
-- <Skill name="Imperial Guard"/> - A 2 second block. Once used, the flip skill <Skill name="True Strike"/> is useable. This will deal increased damage per attack blocked.
-- <Skill name="Eternity's Requiem"/> - High damage skill that will hit at least 5 times. Each time the skill hits a damage reduction of 10% is applied for the next hit.
-
-**Sword Skills:**
-
-- <Skill name="Preparation Thrust"/> - The auto-attack chain cleaves and provides <Condition name="Vulnerability"/> on the two first attacks. The third attack creates an exploding rift on up to three targets, with each explosion hitting three targets. Potentially hitting nine times.
-- <Skill name="Chilling Isolation"/> - High damage skill with low cooldown and energy cost, also provides <Condition name="Chilled"/>. The second attack deals increased damage to isolated enemies.
-- <Skill name="Unrelenting Assault"/> - A two second evade that also provides <Boon name="Might"/> to yourself.
-- <Skill name="Shackling Wave"/> - High damage skill, however, should be used in key moments due to the energy cost, cooldown, and application of <Condition name="Vulnerability"/>.
-- <Skill name="Death strike"/> - Shadowstep to the target, grants two hits with decent damage. Should be used in key moments, unless energy and timing allow it to be used for damage.
-
-**Staff Skills:**
-
-- <Skill name="Rapid Swipe"/> - The auto-attack chain cleaves and the last hit provides a small amount of healing to allies.
-- <Skill name="Menders Rebuke"/> - Provides <Condition name="Weakness"/> and a small amount of healing to allies.
-- <Skill name="Warding Rift"/> - A two second block that causes <Condition name="Blinded"/> foes.
-- <Skill name="Renewing Wave"/> - Provides a blast for a combo field, cleanses two conditions and heals allies.
-- <Skill name="Surge of the Mists"/> - The strongest Crowd Control skill in your arsenal, which grants between three and nine hits of <Control name="Knockback"/>.
-
----
-
-**Notable Traits:**
-
-- <Trait name="roilingmists" /> - 25% Critical-hit chance increase when under the effect of <Boon name="Fury" />
-- <Trait name="Rising Tide"/> - 7% damage increase while your health is above 90%.
-- <Trait name="sharedempowerment" /> When applying Boons to an ally you also apply <Boon name="Might" />.
-- <Trait name="reinforcedpotency" /> - Gain Concentration and deal increased strike damage for each active Boon you have.
-- <Trait name="draconicecho" /> - Consume Skills grant <Boon name="Quickness" /> and retain the facets passive effect for 6s.
-
-### Legends
-
-**<Skill name="Legendary Dragon Stance"/>**
-
-- <Skill name="facetoflight" /> - Pulse <Boon name="Regeneration" /> every few seconds.
-  - <Skill name="infuselight" /> - Covert incoming damage to heal for a few seconds.
-- <Skill name="facetofdarkness" /> - Pulse <Boon name="Fury" /> every few seconds.
-  - <Skill name="gazeofdarkness"/> - Apply <Condition name="Blinded" /> and <Effect name="Revealed" /> to nearby enemies.
-- <Skill name="facetofelements" /> - Pulse <Boon name="Swiftness" /> every few seconds.
-  - <Skill name="elementalblast" /> - Deal Damage in an Area and apply <Condition name="Burning" />, <Condition name="Chilled" /> and <Condition name="Weakness" />.
-- <Skill name="facetofstrength" /> - Pulse <Boon name="Might" /> every few seconds.
-  - <Skill name="burstofstrength" /> - Gain a 25% Damage Boost for 5s.
-- <Skill name="facetofchaos" /> - Pulse <Boon name="Protection" /> every few seconds.
-  - <Skill name="chaoticrelease" /> - Knock enemies back and grant <Effect name="Superspeed" /> to allies.
-
----
-
-**<Skill name="Legendary Assassin Stance"/>**
-
-- <Skill name="Enchanted Daggers"/> - Every ½ second your next six attacks siphon life from your target.
-- <Skill name="Phase Traversal"/> - Shadowsteps you to your target and gives you two stacks of unblockable.
-- <Skill name="Riposting Shadows"/> - Stunbreak and evade that removes movement-impairing conditions like <Condition name="Crippled"/>.
-- <Skill name="Impossible Odds"/> - **Toggle:** Damage modifier, grants you another hit on your attacks and increases your movement speed.
-- <Skill name="Jade Winds"/> - Deal damage, inflict <Condition name="Vulnerability"/> and <Control name="Stun"/> five nearby enemies.
-
----
-
-**<Skill name="Legendary Dwarf Stance"/>**
-
-- <Skill name="Soothing Stone"/> - Powerful self-heal and condition cleanse.
-- <Skill name="Inspiring Reinforcement"/> - Grant <Boon name="Stability"/> to your party and inflict <Condition name="Weakness"/> and damage to enemies standing in the field.
-- <Skill name="Forced Engagement"/> - Shoot out a chain to your target that applies <Condition name="Taunt"/> and <Condition name="Slow"/> to your target and four nearby enemies.
-- <Skill name="Vengeful Hammers"/> - **Toggle:** Summon hammers to spin around you dealing damage to nearby enemies while draining your energy.
-- <Skill name="Rite of the Great Dwarf"/> - Stunbreak which reduces incoming damage by 50% for your party.
-
----
-
-**<Skill name="Legendary Demon Stance"/>**
-
-- <Skill name="Empowering Misery"/> - A decent self-heal that heals more for each unique condition on you.
-- <Skill name="Pain Absorption"/> - Draw one condition from nearby allies and provide <Boon name="Resistance"/> to your party. Also works as a stunbreak.
-- <Skill name="Banish Enchantment"/> - Removes three boons from enemies in a line up to five unique enemies and causes <Condition name="Chilled"/> on enemies hit.
-- <Skill name="Call to Anguish"/> - Jump to a location and pull five nearby enemies inflicting <Condition name="Chilled"/> on them.
-- <Skill name="Embrace the Darkness"/> - **Toggle:** Deal damage to nearby enemies and pulse <Condition name="Torment"/> to them. Drains energy when toggled on.
-
----
-
-**<Skill name="Legendary Centaur Stance"/>**
-
-- <Skill name="Project Tranquility"/> - Summon Ventari's Tablet which heals nearby allies every few seconds.
-- <Skill name="Ventaris Will"/> - Move Ventari's Tablet to the target location.
-- <Skill name="Protective Solace"/> - **Toggle:** Summons a protective barrier that **absorbs** (not reflect) projectiles around the tablet.
-- <Skill name="Natural Harmony"/> - Heals the party for a decent amount around the tablet.
-- <Skill name="Purifying Essence"/> - Cleanses three conditions from allies near the tablet and heals per condition cleansed.
-- <Skill name="Energy Expulsion"/> - Drains your remaining energy to explode Ventari's Tablet, cleansing one condition per 10 energy drained. Ventari's Tablet shatters into smaller fragments that can be picked up by allies for a small heal.
