@@ -32,7 +32,7 @@ classification:
   - 4
   - 1
   - 3
-date: "2024-07-05T00:08:15.044Z "
+date: "2024-07-06T13:21:50.567Z "
 ---
  
 The Power Quickness <Specialization name="Herald"/> provides permanent <Boon name="Quickness"/>, <Boon name="Fury"/>, <Boon name="Protection"/>, <Boon name="Swiftness"/>, <Boon name="Regeneration"/>, ~13 <Boon name="Might"/>, additional incoming boon duration, and good CC with <Skill name="Surge of the mists"/>.
@@ -79,18 +79,33 @@ Dragon pieces can be freely replaced with Berserker for a slight DPS loss.
 </Grid>
 
 
-### Situational Skills
+<Divider text="Situational Skills"/>
 <Grid>
 <GridItem sm="4">
 #### <Skill name="Legendary Dragon Stance"/>  
 |                                                                      |                                                                                                                                                                                                                 |
 |---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|<Skill name="Facet of Light" size="big" disableText/> <Skill name="Infuse Light" size="big" disableText/>             |Important for maintaining <Boon name="Regeneration"/>. Second activation provides healing to all incoming strike damage                                                                                                                                                                 |
-| <Skill name="Darkrazor's daring" size="big" disableText/>               | Variety of uses, primarily as a good 600 AoE CC skill. Can be cast to CC a Boss, a group of adds or remove boons from enemies with <Item id="72872"/>                                                                |
-| <Skill name="Icerazor's Ire" size="big" disableText/>                   | Good DPS skill that also stacks <Condition name="Vulnerability"/> on the boss.                                                                                                                                       |
+|<Skill name="Facet of Light" size="big" disableText/> <Skill name="Infuse Light" size="big" disableText/>             |Important for maintaining <Boon name="Regeneration"/>. Second activation provides healing to all incoming strike damage.                                                                                                                                                                 |
+|<Skill name="Facet of Chaos" size="big" disableText/> <Skill name="Chaotic Release" size="big" disableText/>                | Important for maintaining <Boon name="protection"/>. Second activation gives the party <Effect name="Superspeed"/>.                                                                |
 
 </GridItem>
 <GridItem sm="4">
+#### <Skill id="29371"/>  
+|                                                                      |                                                                                                                                                                                                                 |
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|<Skill name="Legendary Assassin stance" size="big" disableText/> <Skill name="True Nature" size="big" disableText/>             |Removes 3 boons from target. Useful for dealing with <Instability name="No Pain, No Gain"/>.                                                                                                                                                                 |
+|<Skill name="Legendary Dwarf stance" size="big" disableText/> <Skill name="True Nature" size="big" disableText/>             | Provides extra 3x <Boon name="Stability"/> to team on activation.                                                                |
+
+</GridItem>
+<GridItem sm="4">
+#### <Skill name="Legendary Dwarf Stance"/>  
+|                                                                      |                                                                                                                                                                                                                 |
+|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <Skill name="Inspiring Reinforcement" size="big" disableText/>          | Casually called 'Road', is often used to provide stability to the party.                                                                                                         |
+| <Skill name="Forced Engagement" size="big" disableText/>                | 500 CC in 4 seconds through <Condition name="Taunt"/> and <Condition name="Slow"/>.                                                                                                                                  |
+| <Skill name="Vengeful Hammers" size="big" disableText/>                 | Can be used in place of <Skill name="Impossible Odds" />, and although is less DPS, does give a small heal for every hammer hit.                                                                                                  |
+
+</GridItem><GridItem sm="4">
 #### <Skill name="Legendary Assassin Stance"/>  
 |                                                                      |                                                                                                                                                                                                                 |
 |---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -100,20 +115,13 @@ Dragon pieces can be freely replaced with Berserker for a slight DPS loss.
 
 
 </GridItem>
-<GridItem sm="4">
-#### <Skill name="Legendary Dwarf Stance"/>  
-|                                                                      |                                                                                                                                                                                                                 |
-|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <Skill name="Inspiring Reinforcement" size="big" disableText/>          | Casually called 'Road', is often used to provide stability to the party.                                                                                                         |
-| <Skill name="Forced Engagement" size="big" disableText/>                | 500 CC in 4 seconds through <Condition name="Taunt"/> and <Condition name="Slow"/>.                                                                                                                                  |
-| <Skill name="Vengeful Hammers" size="big" disableText/>                 | Similar to <Skill name="Impossible Odds" />, and although is less DPS, does give a small heal for every hammer hit.                                                                                                  |
 
-</GridItem>
 <GridItem sm="4">
-#### <Specialization name="Renegade"/> Citedal Order Skills
+#### <Skill name="Legendary Centaur Stance"/>  
 |                                                                      |                                                                                                                                                                                                                 |
 |---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <Skill name="Heroic Command" size="big" disableText/>                   | Cast Heroic Command, when you see your group missing might. Make sure that you have 5 Stacks of Kalla's Fervor to provide 10 <Boon name="Might"/>.                                                                                        |
+| <Skill name="Protective Solace" size="big" disableText/>               | Creates a bubble at target location of Ventari's Tablet that destroys projectiles. Useful for fractals such as Siren's Reef and bosses on fractals such as Volcanic and Uncategorised.                                                                                                                                                                                 |
+| <Skill name="Natural Harmony" size="big" disableText/>                  | Condition clears allies.                                                                                                                  |
 
 </GridItem>
 <GridItem sm="4">
@@ -122,13 +130,7 @@ Dragon pieces can be freely replaced with Berserker for a slight DPS loss.
 |---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <Skill name="Banish Enchantment" size="big" disableText/>               | Remove 3 boons from enemy target.                                                                                                                                                                                    |
 | <Skill name="Call to Anguish" size="big" disableText/>                  | Pull enemies together in a 360 radius. Useful for pulling adds together in Molten Boss for example.                                                                                                                  |
-
-</GridItem>
-<GridItem sm="4">
-#### <Skill name="Legendary Dragon Stance"/>  
-|                                                                      |                                                                                                                                                                                                                 |
-|---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <Skill name="Facet of Chaos" size="big" disableText/>                   | Gives the party <Effect name="Superspeed"/>.                                                                                                                                                                         |
+| <Skill name="Embrace the darkness" size="big" disableText/>                  | Pulses torment and can be used in place of <Skill name="Impossible Odds" />.                                                                                                                  |
 
 </GridItem>
 </Grid>
@@ -136,7 +138,19 @@ Dragon pieces can be freely replaced with Berserker for a slight DPS loss.
 
 
 <Divider text="Details"/>
-### Precasting
+<Grid>
+<GridItem sm="8">
+### Opening Rotation
+This is the general opening rotation you will use on almost every fight after precasting. For fights that do not require CC, feel free to substitute a section of the rotation as indicated below for the Burst rotation found on the right.
+
+#### Staff/Sword+Sword
+
+Start on <Skill id="28085"  disableText/> Herald.
+
+
+</GridItem>
+<GridItem sm="4">
+<Card title="Precasting">
 
 Start on <Skill name="Legendary Dragon Stance"/>.
 
@@ -146,26 +160,39 @@ Start on <Skill name="Legendary Dragon Stance"/>.
 4. Cast <Skill name="True Nature"/> (Dragon)
 5. Take Mistlock Singularity.
 6. Blast <Boon name="Might"/> with <Skill name="Renewing Wave"/>
-7. Activate <Skill name="Facet of Nature"/> (Dragon)
-8. Activate and cast <Skill name="Infuse Light"/>
-9. Swap to <Skill name="Legendary Assassin Stance"/> and cast <Skill name="Enchanted Daggers"/>.
-10. Swap back to <Skill name="Legendary Dragon Stance"/>.
+7. Manually swap to <Skill name="Legendary Assassin Stance"/> and cast <Skill name="Enchanted Daggers"/>.
+8. Manually swap back to <Skill name="Legendary Dragon Stance"/>.
 
-### Greatsword Burst Rotation
+</Card>
+<Card title="Burst rotation">
+Greatsword (during <Skill name="Legendary Dragon Stance"/>)
 
-1.  <Skill name="Eternity's Requiem"/>
+1.  <Skill name="Elemental Blast" />
 2.  <Skill name="Burst of Strength"/>
-3.  <Skill name="Elemental Blast" />
-4.  <Skill name="Mist Unleashed"/>
-5.  <Skill name="Phantom's Onslaught"/>
+3.  <Skill name="Eternity's Requiem"/>
+4.  <Skill name="Phantom's Onslaught"/>
+5.  Legend Swap (Activate <Skill name="Impossible Odds"/> )
+6.  <Skill name="Mist Unleashed"/>
+7.  Weapon Swap
 
-### Sword Burst Rotation
+Sword (during <Skill name="Legendary Assassin Stance"/>, if continued from above, ignore step 1)
 
-1.  <Skill name="Burst of Strength"/>
-2.  <Skill name="Elemental Blast" />
+1.  <Skill name="Impossible Odds"/>
 3.  <Skill name="Chilling Isolation"/>
 4.  <Skill name="Shackling Wave"/>
 5.  <Skill name="Deathstrike"/>
 
 Ideally you would want to do your burst rotation when the enemy is under the effect of <Effect name="Exposed"/>.
+</Card>
+</GridItem>
+</Grid>
 
+### **Dealing with No Pain, No Gain**
+<Warning>
+
+Note that with a build like <Specialization name="Scrapper"/>, <Specialization name="Virtuoso"/>, <Specialization name="Scourge"/>, or <Specialization name="Specter"/> who can strip boons while doing their rotation, you shouldn't have to deal with <Instability name="No Pain, No Gain"/> on most fights. Although there will be some T4s where you will need to help and also on Arkk and MAMA depending on the build.
+</Warning>
+
+There are multiple weapons in your arsenal to deal with the instability <Instability name="No Pain, No Gain"/> and make it easier to manage the boons that the enemy will receive from this instability (the internal cooldown is 20 seconds). For fractals with <Instability name="No Pain, No Gain"/> it is recommended to run a staff with <Item id="72872"/> instead of a <Item id="24615"/>. The <Item id="72872"/> will transfer three boons from enemies to you when you interrupt an attack. For enemies with a defiance bar, using a CC skill while the enemy is casting any ability counts as interrupting, even if there is no "_interrupted_" message. 
+
+Alternatively using 
