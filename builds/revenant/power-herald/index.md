@@ -32,7 +32,7 @@ classification:
   - 4
   - 1
   - 3
-date: "2024-07-08T12:46:37.235Z "
+date: "2024-07-08T13:28:43.423Z "
 ---
  
 The Power Quickness <Specialization name="Herald"/> provides permanent <Boon name="Quickness"/>, <Boon name="Fury"/>, <Boon name="Protection"/>, <Boon name="Swiftness"/>, <Boon name="Regeneration"/>, ~13 <Boon name="Might"/>, additional incoming boon duration, and good CC with <Skill name="Surge of the mists"/>.
@@ -62,7 +62,6 @@ Dragon pieces can be freely replaced with Berserker for a slight DPS loss.
 **Hard Crowd Control:**
 
 - <Skill name="Surge of the Mists"/> - Up to nine hits of 150 <Control name="Knockback"/>.
-- <Skill name="Darkrazors Daring"/> - 600 <Control name="Daze"/> + Superior Sigil of Paralyzation <Item id="24639" disableText/> = 780 <Control name="Daze"/>.
 - <Skill name="Jade Winds"/> - 300 <Control name="Stun"/> + Superior Sigil of Paralyzation <Item id="24639" disableText/> = 390 <Control name="Daze"/>.
 - <Skill name="Call to Anguish"/> - 150 <Control name="Pull"/>.
 
@@ -157,7 +156,13 @@ Start on <Skill id="28085"  disableText/> Herald. Make sure to activate <Skill n
 9. <Skill name="Shackling Wave"/>
 10. <Skill name="Deathstrike"/>
 
-Rotation
+### **General Rotation Guide**
+#### Energy Management
+The objective of a Herald is to upkeep as many boons as possible through both <Skill name="True Nature"/> (under  Energy is replenished over time as indicated by the arrows to the left and right of the energy indicator. Every arrow indicates 1% point of energy gained/lost per second.
+
+#### Stance management
+Each stance is used for different purposes. Below are a quick highlight of each
+1. 
 
 </GridItem>
 <GridItem sm="4">
