@@ -32,7 +32,7 @@ classification:
   - 4
   - 1
   - 3
-date: "2024-07-06T13:21:50.567Z "
+date: "2024-07-08T12:46:37.235Z "
 ---
  
 The Power Quickness <Specialization name="Herald"/> provides permanent <Boon name="Quickness"/>, <Boon name="Fury"/>, <Boon name="Protection"/>, <Boon name="Swiftness"/>, <Boon name="Regeneration"/>, ~13 <Boon name="Might"/>, additional incoming boon duration, and good CC with <Skill name="Surge of the mists"/>.
@@ -53,7 +53,7 @@ Dragon pieces can be freely replaced with Berserker for a slight DPS loss.
 <Divider text="Build"/>
 <Grid>
 <GridItem>
-<Traits traits1="Devastation" traits1Selected="Unsuspecting Strikes,Notoriety,Swift Termination" traits2="Invocation" traits2Selected="Rising Tide,Spirit Boon, Roiling Mists" traits3="Herald" traits3Selected="Core Value, Shared Empowerment, Elevated Compassion"/>
+<Traits traits1Id="15" traits1="Devastation" traits1Selected="Unsuspecting Strikes,Notoriety,Swift Termination" traits2Id="3" traits2="Invocation" traits2Selected="Rising Tide,Spirit Boon, Roiling Mists" traits3Id="52" traits3="Herald" traits3Selected="Core Value, Shared Empowerment, Elevated Compassion"/>
 </GridItem>
 <GridItem>
 
@@ -145,8 +145,19 @@ This is the general opening rotation you will use on almost every fight after pr
 
 #### Staff/Sword+Sword
 
-Start on <Skill id="28085"  disableText/> Herald.
+Start on <Skill id="28085"  disableText/> Herald. Make sure to activate <Skill name="Facet of Elements"/>,<Skill name="Facet of Strength"/> and <Skill name="Facet of Darkness"/>. While running in, activate <Skill name="Facet of Nature"/> and <Skill name="Facet of chaos"/>.
+1. <Skill name="True Nature"/>
+2. <Skill name="Elemental Blast"/>
+3. <Skill name="Burst of Strength"/>
+4. <Skill name="Surge of the Mists"/>
+5. <Skill name="Chaotic Release"/>
+6. Legend swap + Weapon swap
+7. <Skill name="Impossible Odds"/>
+8. <Skill name="Chilling Isolation"/>
+9. <Skill name="Shackling Wave"/>
+10. <Skill name="Deathstrike"/>
 
+Rotation
 
 </GridItem>
 <GridItem sm="4">
@@ -193,6 +204,5 @@ Ideally you would want to do your burst rotation when the enemy is under the eff
 Note that with a build like <Specialization name="Scrapper"/>, <Specialization name="Virtuoso"/>, <Specialization name="Scourge"/>, or <Specialization name="Specter"/> who can strip boons while doing their rotation, you shouldn't have to deal with <Instability name="No Pain, No Gain"/> on most fights. Although there will be some T4s where you will need to help and also on Arkk and MAMA depending on the build.
 </Warning>
 
-There are multiple weapons in your arsenal to deal with the instability <Instability name="No Pain, No Gain"/> and make it easier to manage the boons that the enemy will receive from this instability (the internal cooldown is 20 seconds). For fractals with <Instability name="No Pain, No Gain"/> it is recommended to run a staff with <Item id="72872"/> instead of a <Item id="24615"/>. The <Item id="72872"/> will transfer three boons from enemies to you when you interrupt an attack. For enemies with a defiance bar, using a CC skill while the enemy is casting any ability counts as interrupting, even if there is no "_interrupted_" message. 
-
-Alternatively using 
+There are multiple weapons in your arsenal to deal with the instability <Instability name="No Pain, No Gain"/> (the internal cooldown is 20 seconds). The way that is most recommended is with <Skill name="True Nature" /> while in <Skill name="Legendary Assassin stance" />. This also has a 20 second cd, perfectly lining up with <Instability name="No Pain, No Gain"/>. 
+Alterntively, while running staff, use  <Item id="72872"/> instead of a <Item id="24615"/>. The <Item id="72872"/> will transfer three boons from enemies to you when you interrupt an attack. For enemies with a defiance bar, using a CC skill while the enemy is casting any ability counts as interrupting, even if there is no "_interrupted_" message. 
