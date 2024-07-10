@@ -31,7 +31,7 @@ classification:
   - 4
   - 1
   - 3
-date: "2024-07-10T16:51:57.302Z "
+date: "2024-07-10T16:54:09.883Z "
 role: Power Damage
 ---
 
@@ -146,7 +146,6 @@ As for legends that you want to run due to a lack of boonstrip in a group, the g
 |---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | <Skill name="Banish Enchantment" size="big" disableText/>               | Remove 3 boons from enemy target.                                                                                                                                                                                    |
 | <Skill name="Call to Anguish" size="big" disableText/>                  | Pull enemies together in a 360 radius. Useful for pulling adds together in Molten Boss for example.                                                                                                                  |
-| <Skill name="Embrace the darkness" size="big" disableText/>                  | Pulses torment and can be used in place of <Skill name="Impossible Odds" />.                                                                                                                  |
 
 </GridItem>
 </Grid>
