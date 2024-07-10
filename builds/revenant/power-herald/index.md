@@ -32,7 +32,7 @@ classification:
   - 4
   - 1
   - 3
-date: "2024-07-10T12:16:42.394Z "
+date: "2024-07-10T12:28:57.593Z "
 ---
  
 The Power Quickness <Specialization name="Herald"/> provides permanent <Boon name="Quickness"/>, <Boon name="Fury"/>, <Boon name="Protection"/>, <Boon name="Swiftness"/>, <Boon name="Regeneration"/>, ~13 <Boon name="Might"/>, additional incoming boon duration, and good CC with <Skill name="Surge of the mists"/>.
@@ -100,7 +100,7 @@ Dragon pieces can be freely replaced with Berserker for a slight DPS loss.
 #### <Skill name="Legendary Dwarf Stance"/>  
 |                                                                      |                                                                                                                                                                                                                 |
 |---------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| <Skill name="Inspiring Reinforcement" size="big" disableText/>          | Casually called 'Road', is often used to provide stability to the party.                                                                                                         |
+| <Skill name="Inspiring Reinforcement" size="big" disableText/>          | Casually called 'Road', is often used to provide <Boon name="Stability"/> to the party.                                                                                                         |
 | <Skill name="Forced Engagement" size="big" disableText/>                | 500 CC in 4 seconds through <Condition name="Taunt"/> and <Condition name="Slow"/>.                                                                                                                                  |
 | <Skill name="Vengeful Hammers" size="big" disableText/>                 | Can be used in place of <Skill name="Impossible Odds" />, and although is less DPS, does give a small heal for every hammer hit.                                                                                                  |
 
