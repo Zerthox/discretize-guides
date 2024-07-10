@@ -23,8 +23,8 @@ classification:
   - 4
   - 3
   - 5
-date: "2024-07-10T15:17:34.383Z "
-cmGuide: static
+date: "2024-07-10T15:19:58.638Z "
+cmGuide: ""
 ---
 The <Specialization name="Renegade"/> is one of the professions with the most support and utility. It provides permanent <Boon name="Alacrity"/>, half of the necessary <Boon name="Might"/> with <Skill name="Heroic Command"/>, and if that is not enough already, the <Specialization name="Renegade"/> has also excellent CC capabilities with <Skill name="Surge of the mists"/> and <Skill name="Darkrazorsdaring"/>.
 
@@ -183,7 +183,7 @@ If you find the stability to be an issue on fights where <Skill name="Stand Your
 <Grid>
 <GridItem sm="8">
 ### Opening Rotations
-_To preface, there are 2 general rotations detailed below that are typically used for different power fights pertaining to the different weapon sets. Adapt them as you see fit. For a more detailed guide, please refer to the [CM guide ](/cm-guides/revenant/power-renegade/static)_
+_To preface, there are 2 general rotations detailed below that are typically used for different power fights pertaining to the different weapon sets. Adapt them as you see fit.
 
 #### Greatsword/Sword+Sword
 
