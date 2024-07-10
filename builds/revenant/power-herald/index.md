@@ -32,7 +32,7 @@ classification:
   - 4
   - 1
   - 3
-date: "2024-07-10T10:47:44.704Z "
+date: "2024-07-10T11:11:03.430Z "
 ---
  
 The Power Quickness <Specialization name="Herald"/> provides permanent <Boon name="Quickness"/>, <Boon name="Fury"/>, <Boon name="Protection"/>, <Boon name="Swiftness"/>, <Boon name="Regeneration"/>, ~13 <Boon name="Might"/>, additional incoming boon duration, and good CC with <Skill name="Surge of the mists"/>.
@@ -158,19 +158,37 @@ While running in, activate <Skill name="Facet of Nature"/> and <Skill name="True
 9. <Skill name="Deathstrike"/>
 
 ### **General Rotation Guide**
+
+### **Understanding the class**
 #### Energy Management
 The objective of a Herald is to upkeep as many boons as possible through both <Skill name="True Nature"/> (under <Skill name="Legendary Dragon Stance"/>) and the use of energy draining skills. As a general rule, make sure to use <Skill name="Facet of chaos"/> in combination with <Skill name="Facet of Darkness"/>. However, if <Skill name="Gaze of Darkness"/> was used in the situation of a stun break, <Skill name="Facet of Nature"/> can be activated to fulfil the energy drain requirement to upkeep quickness.
 
-Alternatively, on other legends, the following energy drain skills can be used for both boon
-<Skill name="Embrace the darkness" />
+Alternatively, on other legends, the following energy drain skills can be used for upkeeping <Boon name="Might"/> (via <Trait name="Shared Empowerment"/>) and <Boon name="Quickness"/>:
+1. <Skill name="Embrace the darkness" /> -> <Skill name="Legendary Demon Stance"/>
+2. <Skill name="Impossible Odds" /> -> <Skill name="Legendary Assassin Stance"/>
+3. <Skill name="Protective Solace" /> -> <Skill name="Legendary Centaur Stance"/>
+4. <Skill name="Vengeful Hammers" /> -> <Skill name="Legendary Dwarf Stance"/>
+
+Remember, outside of <Skill name="Impossible Odds" />, every other legend has a purpose (explained below). Using any of the above skills, may cause you to run out of energy when <Skill name="Inspiring Reinforcement" /> is used. This can then snowball into running out of energy for your weapon skills.
+
+So **Plan your play:** and **Plan your skill costs:**.
 
 <Information>
 Energy is replenished over time as indicated by the arrows to the left and right of the energy indicator. Every arrow indicates 1% point of energy gained/lost per second.
 </Information>
 
 #### Stance management
-Each stance is used for different purposes. Below are a quick highlight of each
-1. 
+Each stance is used for different purposes. Generally **NEVER** drop <Skill name="Legendary Dragon Stance"/> due to its ability to provide both <Boon name="Fury"/>, <Boon name="Regeneration"/>,<Boon name="Swiftness"/> and <Boon name="Protection"/> outside of <Boon name= "Might"/> and <Boon name="Quickness"/> as well as boon extension.
+
+However, the other stance that is used is generally encounter specific. Below is a quick guide of each stance and how they may be used.
+1. <Skill name="Legendary Assassin Stance"/>:\
+This is your highest DPS stance. If no other stance is required to help manage mechanics, always run this in combination with <Skill name="Legendary Dragon Stance"/>.
+
+2. <Skill name="Legendary Dwarf Stance"/>:\
+Will probably be your second most used stance. Try to always leave enough energy for <Skill name="Inspiring Reinforcement" />. Ideally, this should be used just before your legend swap, allowing for stability to maintained whiled in <Skill name="Legendary Dragon Stance"/>.This is generally used on both Chaos fractal bosses as well as Fractal CM bosses such as Skorvold and Artsariiv.
+
+3. <Skill name="Legendary Centaur Stance"/>
+4. <Skill name="Legendary Demon Stance"/>
 
 </GridItem>
 <GridItem sm="4">
