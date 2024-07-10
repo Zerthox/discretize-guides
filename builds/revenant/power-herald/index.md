@@ -32,12 +32,12 @@ classification:
   - 4
   - 1
   - 3
-date: "2024-07-10T12:13:39.519Z "
+date: "2024-07-10T12:14:31.997Z "
 ---
  
 The Power Quickness <Specialization name="Herald"/> provides permanent <Boon name="Quickness"/>, <Boon name="Fury"/>, <Boon name="Protection"/>, <Boon name="Swiftness"/>, <Boon name="Regeneration"/>, ~13 <Boon name="Might"/>, additional incoming boon duration, and good CC with <Skill name="Surge of the mists"/>.
 
-This particular build is far more utility focussed compared to the [<Specialization name="Renegade" disableText/>    Power Alac Renegade Build](/builds/revenant/power-renegade/). In general other stances are recommended over <Skill name="Legendary Assassin Stance" />. Below we will cover both examples of stances and when they are used.
+This particular build is far more utility focussed compared to the [<Specialization name="Renegade" disableText/>    Power Alac Renegade Build](/builds/revenant/power-renegade/). In general other stances are recommended over <Skill name="Legendary Assassin Stance" />. Below we will cover examples of stances, their important skills and when they are used.
  
 <Divider text="Equipment"/> 
 <CharacterWithAr>
