@@ -17,14 +17,14 @@ boons:
     uptime: 10 stacks
     variant: party
 code: "[&DQkDJg8qPz3cEdwRKxIrEgYSBhLUEdQRyhHKEQUCBAMGEisS1BEGEisS1BE=]"
-cmGuide: static
 classification:
   - 5
   - 2
   - 4
   - 3
   - 5
-date: "2024-07-03T11:49:54.981Z "
+date: "2024-07-10T15:17:34.383Z "
+cmGuide: static
 ---
 The <Specialization name="Renegade"/> is one of the professions with the most support and utility. It provides permanent <Boon name="Alacrity"/>, half of the necessary <Boon name="Might"/> with <Skill name="Heroic Command"/>, and if that is not enough already, the <Specialization name="Renegade"/> has also excellent CC capabilities with <Skill name="Surge of the mists"/> and <Skill name="Darkrazorsdaring"/>.
 
@@ -75,7 +75,7 @@ Dragon pieces can be freely replaced with Berserker for a slight DPS loss.
 </CharacterWithAr>
 
 
-<Divider text="Staff  VS Greatsword"/>
+<Divider text="Staff VS Greatsword"/>
 <Grid>
 <GridItem>
 <Weapons weapon1MainType="Staff" weapon1MainAffix="Berserker" weapon1MainSigil1Id="24615" weapon1MainSigil2Id="84505"/> 
@@ -85,7 +85,7 @@ Dragon pieces can be freely replaced with Berserker for a slight DPS loss.
 <Weapons weapon1MainType="Greatsword" weapon1MainAffix="Berserker" weapon1MainSigil1Id="24615" weapon1MainSigil2Id="24868"/> 
 </GridItem>
 </Grid>
-When playing <Specialization name="Renegade" text="Power Renegade"/>, both Staff and Greatsword are valid choices and situationally optimal depending on the group and encounter. In T4 Fractals, due to most defiance bard requiring 800cc and <Skill name="Darkrazors Daring"/> applying an instant 600 CC, Greatsword is the recommended choice for more damage.
+When playing <Specialization name="Renegade" text="Power Renegade"/>, both Staff and Greatsword are valid choices as a second weaponset and situationally optimal depending on the group and encounter. In T4 Fractals, due to most defiance bard requiring 800cc and <Skill name="Darkrazors Daring"/> applying an instant 600 CC, Greatsword is the recommended choice for more damage.
 
 In CMs there is a larger CC contribution requirement, however with builds such as <BuildLink build="Heal Chronomancer" specialization="Chronomancer"/> and <BuildLink build="Power Scrapper" specialization="Scrapper"/> providing large amounts of CC, along with contribution from DPS builds, in a lot of cases you can play Greatsword. However if CC is non-existant in your party it may be a better option to take Staff to provide the extra CC yourself.
 
@@ -106,7 +106,6 @@ If you do play Greatsword on CMs, On Artsariiv, you should take <Item id="24639"
 | ----------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | <Trait name="Incensed Response" size="big" disableText/>    | Will increase your personal <Boon name="Might"/> generation and is taken as an alternative to <Trait name="Spirit Boon"/> if you are not maintaining 25 stacks.                                                  |
 | <Trait name="Vindication" size="big" disableText/>    | This trait is a personal DPS increase. It can be used on shorter fights where you can precast most of the required <Boon name="Alacrity"/> at the _Mistlock Singularity_. |   
-| <Trait name="All for One" size="big" disableText/>    | **[NEW]** This trait gives a 10% personal DPS increase for every <Skill name="Legendary Renegade Stance"/> skill used as well as giving your team <Boon name="Protection"/>.|  
 
 ### Defiance Bar Damage
 
@@ -300,3 +299,5 @@ All skills cost energy so plan accordingly. Remember, your primary job is to giv
 3. <Trait name="Swift Termination"/>: Increases your DPS in the last 50% of the fight. Try to use burst skills in this window, but not worth overly delaying skills.
 
 4. <Trait name="Charged Mists"/>: When legend swapping, try to go below 10 energy to proc this trait, resulting in 75 energy on the next legend. This allows for more burst skills to be cast.
+
+5. <Trait name="All for One"/>: This trait gives a 10% strike damage increase for every <Skill name="Legendary Renegade Stance"/> ability used.
