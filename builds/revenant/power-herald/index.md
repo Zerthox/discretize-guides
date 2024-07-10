@@ -32,7 +32,7 @@ classification:
   - 4
   - 1
   - 3
-date: "2024-07-10T11:11:03.430Z "
+date: "2024-07-10T12:13:39.519Z "
 ---
  
 The Power Quickness <Specialization name="Herald"/> provides permanent <Boon name="Quickness"/>, <Boon name="Fury"/>, <Boon name="Protection"/>, <Boon name="Swiftness"/>, <Boon name="Regeneration"/>, ~13 <Boon name="Might"/>, additional incoming boon duration, and good CC with <Skill name="Surge of the mists"/>.
@@ -158,8 +158,6 @@ While running in, activate <Skill name="Facet of Nature"/> and <Skill name="True
 9. <Skill name="Deathstrike"/>
 
 ### **General Rotation Guide**
-
-### **Understanding the class**
 #### Energy Management
 The objective of a Herald is to upkeep as many boons as possible through both <Skill name="True Nature"/> (under <Skill name="Legendary Dragon Stance"/>) and the use of energy draining skills. As a general rule, make sure to use <Skill name="Facet of chaos"/> in combination with <Skill name="Facet of Darkness"/>. However, if <Skill name="Gaze of Darkness"/> was used in the situation of a stun break, <Skill name="Facet of Nature"/> can be activated to fulfil the energy drain requirement to upkeep quickness.
 
@@ -185,10 +183,14 @@ However, the other stance that is used is generally encounter specific. Below is
 This is your highest DPS stance. If no other stance is required to help manage mechanics, always run this in combination with <Skill name="Legendary Dragon Stance"/>.
 
 2. <Skill name="Legendary Dwarf Stance"/>:\
-Will probably be your second most used stance. Try to always leave enough energy for <Skill name="Inspiring Reinforcement" />. Ideally, this should be used just before your legend swap, allowing for stability to maintained whiled in <Skill name="Legendary Dragon Stance"/>.This is generally used on both Chaos fractal bosses as well as Fractal CM bosses such as Skorvold and Artsariiv.
+Will probably be your second most used stance to help prevent any skill interrupts via <Boon name="Stability"/>. Try to always leave enough energy for <Skill name="Inspiring Reinforcement" />. Ideally, this should be used just before your legend swap, allowing for stability to maintained whiled in <Skill name="Legendary Dragon Stance"/>.This is generally used on both Chaos fractal bosses as well as Fractal CM bosses such as Skorvold and Artsariiv.
 
-3. <Skill name="Legendary Centaur Stance"/>
-4. <Skill name="Legendary Demon Stance"/>
+3. <Skill name="Legendary Centaur Stance"/>:\
+Will be used primarily for <Skill name="Protective Solace"/> due to the value of permanent projectile destruction. Although advised to be used in CMs, it is extremely valuable on fractals such as Uncategorised and Siren's Reef as well as bosses found in the Volcanic and Snowblind.
+
+
+4. <Skill name="Legendary Demon Stance"/>:\
+Although may be used the least, it is extremely useful for pulling mobs through <Skill name="Call to Anguish" /> and boon stripping multiple mobs via <Skill name="Banish Enchantment" />. Grouping mobs such as those found in the Elevator of the Deepstone fractal as well as the Krait during the altar capturing of Nightmare CM can be extremely beneficial for the group to cleave.
 
 </GridItem>
 <GridItem sm="4">
@@ -235,5 +237,5 @@ Ideally you would want to do your burst rotation when the enemy is under the eff
 Note that with a build like <Specialization name="Scrapper"/>, <Specialization name="Virtuoso"/>, <Specialization name="Scourge"/>, or <Specialization name="Specter"/> who can strip boons while doing their rotation, you shouldn't have to deal with <Instability name="No Pain, No Gain"/> on most fights. Although there will be some T4s where you will need to help and also on Arkk and MAMA depending on the build.
 </Warning>
 
-There are multiple weapons in your arsenal to deal with the instability <Instability name="No Pain, No Gain"/> (the internal cooldown is 20 seconds). The way that is most recommended is with <Skill name="True Nature" /> while in <Skill name="Legendary Assassin stance" />. This also has a 20 second cd, perfectly lining up with <Instability name="No Pain, No Gain"/>. 
+There are multiple weapons in your arsenal to deal with the instability <Instability name="No Pain, No Gain"/> (the internal cooldown is 20 seconds). The way that is most recommended is with <Skill name="True Nature" /> while in <Skill name="Legendary Assassin stance" />. This also has a 20 second cd, perfectly lining up with <Instability name="No Pain, No Gain"/>. However, if there are multiple mobs that require boon stripping such as in MAMA of Nightmare CM or potentially the Aetherblade Fractal, then using <Skill name="Banish Enchantment" /> with <Skill name="Legendary Demon Stance"/> is also acceptable.\
 Alterntively, while running staff, use  <Item id="72872"/> instead of a <Item id="24615"/>. The <Item id="72872"/> will transfer three boons from enemies to you when you interrupt an attack. For enemies with a defiance bar, using a CC skill while the enemy is casting any ability counts as interrupting, even if there is no "_interrupted_" message. 
