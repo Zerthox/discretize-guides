@@ -32,7 +32,7 @@ classification:
   - 4
   - 1
   - 3
-date: "2024-07-08T13:28:43.423Z "
+date: "2024-07-10T10:47:44.704Z "
 ---
  
 The Power Quickness <Specialization name="Herald"/> provides permanent <Boon name="Quickness"/>, <Boon name="Fury"/>, <Boon name="Protection"/>, <Boon name="Swiftness"/>, <Boon name="Regeneration"/>, ~13 <Boon name="Might"/>, additional incoming boon duration, and good CC with <Skill name="Surge of the mists"/>.
@@ -144,21 +144,29 @@ This is the general opening rotation you will use on almost every fight after pr
 
 #### Staff/Sword+Sword
 
-Start on <Skill id="28085"  disableText/> Herald. Make sure to activate <Skill name="Facet of Elements"/>,<Skill name="Facet of Strength"/> and <Skill name="Facet of Darkness"/>. While running in, activate <Skill name="Facet of Nature"/> and <Skill name="Facet of chaos"/>.
-1. <Skill name="True Nature"/>
-2. <Skill name="Elemental Blast"/>
-3. <Skill name="Burst of Strength"/>
-4. <Skill name="Surge of the Mists"/>
-5. <Skill name="Chaotic Release"/>
-6. Legend swap + Weapon swap
-7. <Skill name="Impossible Odds"/>
-8. <Skill name="Chilling Isolation"/>
-9. <Skill name="Shackling Wave"/>
-10. <Skill name="Deathstrike"/>
+Start on <Skill id="28085"  disableText/> Herald. Make sure to activate <Skill name="Facet of Elements"/>,<Skill name="Facet of Strength"/> and <Skill name="Facet of Darkness"/>. 
+
+While running in, activate <Skill name="Facet of Nature"/> and <Skill name="True Nature"/> before using <Skill name="Facet of chaos"/>.
+1. <Skill name="Elemental Blast"/>
+2. <Skill name="Burst of Strength"/>
+3. <Skill name="Surge of the Mists"/>
+4. <Skill name="Chaotic Release"/>
+5. Legend swap + Weapon swap
+6. <Skill name="Impossible Odds"/>
+7. <Skill name="Chilling Isolation"/>
+8. <Skill name="Shackling Wave"/>
+9. <Skill name="Deathstrike"/>
 
 ### **General Rotation Guide**
 #### Energy Management
-The objective of a Herald is to upkeep as many boons as possible through both <Skill name="True Nature"/> (under  Energy is replenished over time as indicated by the arrows to the left and right of the energy indicator. Every arrow indicates 1% point of energy gained/lost per second.
+The objective of a Herald is to upkeep as many boons as possible through both <Skill name="True Nature"/> (under <Skill name="Legendary Dragon Stance"/>) and the use of energy draining skills. As a general rule, make sure to use <Skill name="Facet of chaos"/> in combination with <Skill name="Facet of Darkness"/>. However, if <Skill name="Gaze of Darkness"/> was used in the situation of a stun break, <Skill name="Facet of Nature"/> can be activated to fulfil the energy drain requirement to upkeep quickness.
+
+Alternatively, on other legends, the following energy drain skills can be used for both boon
+<Skill name="Embrace the darkness" />
+
+<Information>
+Energy is replenished over time as indicated by the arrows to the left and right of the energy indicator. Every arrow indicates 1% point of energy gained/lost per second.
+</Information>
 
 #### Stance management
 Each stance is used for different purposes. Below are a quick highlight of each
