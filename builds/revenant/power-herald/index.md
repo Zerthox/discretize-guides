@@ -3,6 +3,7 @@ title: Power Quick Herald
 hidden: false
 archive: false
 rating: Meta
+role: Power Damage
 profession: Revenant
 specialization: Herald
 boons:
@@ -31,11 +32,10 @@ classification:
   - 4
   - 1
   - 3
-date: "2024-07-10T16:54:09.883Z "
-role: Power Damage
+date: "2024-07-10T17:55:42.204Z "
 ---
 
-<Specialization name="Herald" text="Power Quickness Herald"/> provides permanent <Boon name="Quickness"/>, <Boon name="Fury"/>, <Boon name="Protection"/>, <Boon name="Swiftness"/>, <Boon name="Regeneration"/>, ~13 <Boon name="Might"/>, additional incoming boon duration, and good CC with <Skill name="Surge of the mists"/>. This build is incredibly strong on fractals such as Lonely Tower, due to its massive 600 radius boon sharing range and boon extension abilities, making it easy to maintain boons on your allies as they are spread out dealing with mechanics. <Specialization name="Herald" text="Power Quickness Herald"/> is a more defensive <Boon name="Quickness"/> DPS option to builds such as <Specialization name="Scrapper"/>. It has less burst and damage potential, however offers significantly more supportive utility to the group. 
+<Specialization name="Herald" text="Power Quickness Herald"/> provides permanent <Boon name="Quickness"/>, <Boon name="Fury"/>, <Boon name="Protection"/>, <Boon name="Swiftness"/>, <Boon name="Regeneration"/>, ~16 <Boon name="Might"/>, additional incoming boon duration, and good CC with <Skill name="Surge of the mists"/>. This build is incredibly strong on fractals such as Lonely Tower, due to its massive 600 radius boon sharing range and boon extension abilities, making it easy to maintain boons on your allies as they are spread out dealing with mechanics. <Specialization name="Herald" text="Power Quickness Herald"/> is a more defensive <Boon name="Quickness"/> DPS option to builds such as <Specialization name="Scrapper"/>. It has less burst and damage potential, however offers significantly more supportive utility to the group. 
 
 <Divider text="Equipment"/> 
 <CharacterWithAr>
@@ -154,13 +154,14 @@ As for legends that you want to run due to a lack of boonstrip in a group, the g
 <Grid>
 <GridItem sm="8">
 ### Opening Rotation
-This is the general opening rotation you will use on almost every fight after precasting. For fights that do not require CC, feel free to substitute the rotation below with the Greatsword rotation found on the right.
+This is the general opening rotation you will use on almost every fight after precasting. For fights that do not require CC, feel free to substitute the rotation below with the Greatsword rotation.
 
 #### Staff/Sword+Sword Opener
 
-Start on <Skill id="28085"  disableText/> Herald. Make sure to activate <Skill name="Facet of Elements"/>,<Skill name="Facet of Strength"/> and <Skill name="Facet of Darkness"/>. 
+Start on <Skill id="28085"  disableText/> Herald. Make sure to activate <Skill name="Facet of Elements"/>, <Skill name="Facet of Strength"/> and <Skill name="Facet of Darkness"/>. 
 
-While running in, activate <Skill name="Facet of Nature"/> and <Skill name="True Nature"/> before using <Skill name="Facet of chaos"/>.
+While running in, activate <Skill name="Facet of Nature"/> and <Skill name="True Nature"/>.
+
 1. <Skill name="Elemental Blast"/>
 2. <Skill name="Burst of Strength"/>
 3. <Skill name="Surge of the Mists"/>
@@ -208,13 +209,6 @@ Start on <Skill name="Legendary Dragon Stance"/>.
 
 </Card>
 <Card title="Priority Skills">
-
-**Utility:**
-1. <Skill name="Elemental Blast"/>
-2. <Skill name="Chaotic Release"/>
-3. <Skill name="Burst of Strength"/>
-3. <Skill name="Impossible odds"/>
-4. <Skill name="Vengeful Hammers"/>
 
 **Sword:**
 
