@@ -20,7 +20,7 @@ sigils:
   - id: 36053
   - id: 24648
     description: for the Grawl enemies
-  - 24664
+  - id: 24664
 consumables:
   - 78978
   - 49940
