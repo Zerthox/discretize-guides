@@ -1,6 +1,6 @@
 ---
 title: Teamcomp 101
-date: "2024-08-27T19:47:03.586Z "
+date: "2024-08-28T19:44:53.933Z "
 image: images/header.jpg
 description: Everything around compositions in fractals
 ---
@@ -25,7 +25,7 @@ For T4s, there are several other important concepts:
 1. Projectile reflects and <Boon name="Stability"/>.  
 2. High cleave damage.
 3. Fast movement using leaps, blinks, and teleports to perform skips for the team.
-4. <Effect name="Stealth"/> to skip trash mobs.
+4. <Effect name="Stealth"/> to skip trash mobs. 
 
 ## What and how do I play in PuGs? 
 
@@ -63,7 +63,7 @@ Due to its encounter design, being drastically different from previous fractals,
 |-|-|
 | <Specialization name="Scourge" size="big" disable text/> | <Specialization name="Scourge" text="Heal Alacrity Scourge"/> is a strong <Boon name="Alacrity"/> support option for Eparch CM. It can maintain <Boon name="Alacrity"/>, 25 stacks of <Boon name="Might"/>, <Boon name="Fury"/>, <Boon name="Protection"/>, and some <Boon name="Regeneration"/>, while providing <Effect name="Barrier"/> to help the party survive Eparchs mechanics. It also has access to plenty of CC to help deal with Eparchs 3000 defiance bar. Additionally, it helps to control adds in the split phases with <Condition name="Fear"/>, <Skill name="Spectral Ring"/>, and Greatsword to minimise the amount of emotion stacks Eparch gains, aswell as being able to boonstrip on days with <Instability name="No Pain, No Gain"/>. <br/> **Alternative Options** - Alternatively <BuildLink build="Heal Chronomancer" specialization="Chronomancer"/> can be played in this slot. Or if you feel like your group doesn't need a full healer, <BuildLink build="Celestial Scourge" specialization="Scourge"/> is a solid hybrid build that is great for more confident groups. |
 | <Specialization name="Herald" size="big" disable text/> | <BuildLink build="Power Herald" specialization="Herald"/> is a good pick for Eparch CM, due to its massive 600 range boon application. It shares <Boon name="Quickness"/>, <Boon name="Might"/>, <Boon name="Fury"/>, <Boon name="Protection"/>, and <Boon name="Swiftness"/>, while also extending all boons on allies through <Skill id="29371"/> increasing the duration of boons applied by 20% (up to 120% <Attribute name="Boon Duration"/>) and <Skill id="51696"/>. If required, it can also bring Staff, for a large CC skill with <Skill name="Surge of the Mists"/>. <br/> **Alternative Options** - Alternatively <BuildLink build="Power Scrapper" specialization="Scrapper"/> is an equally viable option in this slot, while it has a smaller boon applictation range, it offers a large amount of CC and <Effect name="Superspeed"/> which massively helps the party with picking up Globules. |
-| Gluttony DPS | This is a special role that picks up the Globules of Gluttony in the Eparch CM fight. With Gluttony stacks, your attacks including condition applications also lifesteal, which can be further increased with <Item id="102245"/>. This makes builds such as <BuildLink build="Condi Willbender" specialization="Willbender"/> and <BuildLink build="Power Catalyst" specialization="Catalyst"/> great picks due to lots of fast or multi hitting attacks proccing the lifesteal. <br/> **Alternative Options** - Alternatively builds like <BuildLink build="Power Scrapper" specialization="Scrapper"/> or <Specialization name="Willbender" text="Power Willbender"/> preform well in this slot. When considering a build to play, remember the lifesteal from Gluttony has no internal cooldown, so the more you can hit an enemy the better. |
+| Gluttony DPS | This is a special role that picks up the Globules of Gluttony in the Eparch CM fight. With Gluttony stacks, your attacks also lifesteal, which can be further increased with <Item id="102245"/>. This makes builds such as <BuildLink build="Condi Willbender" specialization="Willbender"/> and <BuildLink build="Power Catalyst" specialization="Catalyst"/> great picks due to lots of fast or multi hitting attacks proccing the lifesteal. <br/> **Alternative Options** - Alternatively builds like <BuildLink build="Power Scrapper" specialization="Scrapper"/> or <Specialization name="Willbender" text="Power Willbender"/> preform well in this slot. When considering a build to play, remember the lifesteal from Gluttony has no internal cooldown, so the more you can hit an enemy the better. |
 | Rage DPS | Depending on the strategy this role might take up one or two slots in the party. Rage DPS is any power build that picks up the Globules of Rage in the Eparch encounter, which increases their outgoing strike damage. When considering a build for this slot, builds with cleave damage can be useful to help in the split phases with managing adds, and also builds that have access to CC to help break Eparchs bar are preferable. Common choices include <BuildLink build="Power Scrapper" specialization="Scrapper"/> and <BuildLink build="Power Dragonhunter" specialization="Dragonhunter"/>. |
 
 ## What are the differences between the organized groups and how PuGs play?
