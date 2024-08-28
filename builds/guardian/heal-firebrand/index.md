@@ -25,14 +25,14 @@ boons:
   - name: Resolution
     uptime: 78%
     variant: group
-code: "[&DQEuKzEvPhZLFwAAehYAAEkBAAAWAQAAGBYAAAAAAAAAAAAAAAAAAAAAAAACBQBmAAA=]"
+code: "[&DQExLy4/PhZLFwAAehYAAAAAAAAWAQAAGBYAAAAAAAAAAAAAAAAAAAAAAAACWgAyAAA=]"
 classification:
   - 4
   - 1
   - 3
   - 1
   - 2
-date: "2024-08-28T19:33:25.573Z "
+date: "2024-08-28T19:41:59.370Z "
 title: Heal Firebrand
 rating: Good
 role: Support
